@@ -57,4 +57,4 @@ And you can switch between branches with the checkout command. For example, to c
     git co 06_Create_Web_Server_APIs
 
 
-[02]: https://github.com/buffalobillion/contacts/tree/02_Create_Angular_App_And_Basic_Nav
+[02]: https://github.com/buffalobillion/angular-node/tree/02_Create_Angular_App_And_Basic_Nav
