@@ -46,7 +46,7 @@ By default, the git clone command will only create the master branch locally. If
 
 You can review the list of local branches by running:
 
-    git branches
+    git branch
 
 And you can switch between branches with the checkout command. For example, to check out the `06_Create_Web_Server_APIs` branch, run:
 
