@@ -60,7 +60,7 @@ You can review the list of local branches by running:
 
     git branches
 
-And you can switch between branches with the checkout command. For example, to check out the `07_Editing_Form_Data` branch, run:
+And you can switch between branches with the checkout command. For example, to check out the `06_Create_Web_Server_APIs` branch, run:
 
     git co 06_Create_Web_Server_APIs
 
