@@ -66,9 +66,9 @@ And you can switch between branches with the checkout command. For example, to c
 
 
 [00]: https://github.com/buffalobillion/angular-node/tree/00_Blank_Slate
-[01]: https://github.com/buffalobillion/contacts/tree/01_Create_Node_App_And_Static_File_Server
-[02]: https://github.com/buffalobillion/contacts/tree/02_Create_Angular_App_And_Basic_Nav
-[03]: https://github.com/buffalobillion/contacts/tree/03_Create_Angular_Controllers
-[04]: https://github.com/buffalobillion/contacts/tree/04_Communicate_Between_Controllers_Using_Service
-[05]: https://github.com/buffalobillion/contacts/tree/05_Create_A_Provider
-[06]: https://github.com/buffalobillion/contacts/tree/06_Create_Web_Server_APIs
+[01]: https://github.com/buffalobillion/angular-node/tree/01_Create_Node_App_And_Static_File_Server
+[02]: https://github.com/buffalobillion/angular-node/tree/02_Create_Angular_App_And_Basic_Nav
+[03]: https://github.com/buffalobillion/angular-node/tree/03_Create_Angular_Controllers
+[04]: https://github.com/buffalobillion/angular-node/tree/04_Communicate_Between_Controllers_Using_Service
+[05]: https://github.com/buffalobillion/angular-node/tree/05_Create_A_Provider
+[06]: https://github.com/buffalobillion/angular-node/tree/06_Create_Web_Server_APIs
