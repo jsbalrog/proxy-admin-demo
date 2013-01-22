@@ -44,6 +44,10 @@ By default, the git clone command will only create the master branch locally. If
 
     git checkout -b 01_Create_Node_App_And_Static_File_Server origin/01_Create_Node_App_And_Static_File_Server
 
+And make sure you run npm install to install any necessary node modules by running
+
+    npm install
+
 You can review the list of local branches by running:
 
     git branch
