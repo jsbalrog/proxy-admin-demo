@@ -1,1 +1,16 @@
-This is the manage page.
+<h1>Management</h1>
+<div class="css-form">
+
+    <div class="drop-down-section" name="drop-downs">
+        <div class="drop-down-list" name="app-list">
+            <h5>Applications</h5>
+            <select name="app-select"
+                    ng-controller="AppListCtrl"
+                    ng-model="data.selectedApp"
+                    ng-options="i.APP_NM for i in data.apps">
+                <option value="">-- select --</option>
+            </select>
+        </div>
+    </div>
+
+</div>
