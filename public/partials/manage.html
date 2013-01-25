@@ -7,7 +7,8 @@
             <select name="app-select"
                     ng-controller="AppListCtrl"
                     ng-model="data.selectedApp"
-                    ng-options="i.APP_NM for i in data.apps">
+                    ng-options="i.APP_NM for i in data.apps"
+                    ng-change="change(data.selectedApp)">
                 <option value="">-- select --</option>
             </select>
         </div>
