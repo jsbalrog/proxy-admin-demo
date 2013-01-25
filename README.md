@@ -28,7 +28,7 @@ This Git repository includes all of the source code used in creating the employe
 
 Each of the links below represents a snapshot of the code at a point in the presentation. You'll find instructions below on how to check out each snapshot from this git repository.
 
-* [02_Create_Angular_App_And_Basic_Nav][02]
+* [03_Create_Angular_Controllers][03]
 
 ## Using this repository to follow the demo
 
@@ -42,7 +42,7 @@ Change into the directory:
 
 By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
 
-    git checkout -b 02_Create_Angular_App_And_Basic_Nav origin/02_Create_Angular_App_And_Basic_Nav
+    git checkout -b 03_Create_Angular_Controllers origin/03_Create_Angular_Controllers
 
 And make sure you run npm install to install any necessary node modules by running
 
@@ -57,4 +57,4 @@ And you can switch between branches with the checkout command. For example, to c
     git co 06_Create_Web_Server_APIs
 
 
-[02]: https://github.com/buffalobillion/angular-node/tree/02_Create_Angular_App_And_Basic_Nav
+[03]: https://github.com/buffalobillion/angular-node/tree/03_Create_Angular_Controllers
