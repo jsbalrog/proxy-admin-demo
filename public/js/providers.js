@@ -104,6 +104,10 @@ var Provider = (function() {
         return apps;
     };
 
+    my.getUsers = function(app) {
+        return _.where(users, {"APP_ID": app.APP_ID});
+    };
+
     return my;
 
 })();
