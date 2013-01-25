@@ -1,4 +1,4 @@
-angular.module('userAdmin', []).
+var userAdmin = angular.module('userAdmin', []).
     config(function($routeProvider) {
         $routeProvider.when('/', {templateUrl: 'partials/manage.html'});
         $routeProvider.when('/manage', {templateUrl: 'partials/manage.html'});
