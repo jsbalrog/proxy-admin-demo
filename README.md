@@ -28,7 +28,7 @@ This Git repository includes all of the source code used in creating the employe
 
 Each of the links below represents a snapshot of the code at a point in the presentation. You'll find instructions below on how to check out each snapshot from this git repository.
 
-* [04_Communicate_Between_Controllers_Using_Service][04]
+* [05_Hook_Up_Server_Side][05]
 
 ## Using this repository to follow the demo
 
@@ -42,7 +42,7 @@ Change into the directory:
 
 By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
 
-    git checkout -b 04_Communicate_Between_Controllers_Using_Service origin/04_Communicate_Between_Controllers_Using_Service
+    git checkout -b 05_Hook_Up_Server_Side origin/05_Hook_Up_Server_Side
 
 And make sure you run npm install to install any necessary node modules by running
 
@@ -57,4 +57,4 @@ And you can switch between branches with the checkout command. For example, to c
     git co 06_Create_Web_Server_APIs
 
 
-[04]: https://github.com/buffalobillion/angular-node/tree/04_Communicate_Between_Controllers_Using_Service
+[05]: https://github.com/buffalobillion/angular-node/tree/05_Hook_Up_Server_Side
