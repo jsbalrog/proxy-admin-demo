@@ -33,8 +33,7 @@ Each of the links below represents a snapshot of the code at a point in the pres
 * [02_Create_Angular_App_And_Basic_Nav][02]
 * [03_Create_Angular_Controllers][03]
 * [04_Communicate_Between_Controllers_Using_Service][04]
-* [05_Create_A_Provider][05]
-* [06_Create_Web_Server_APIs][06]
+* [05_Hook_Up_Server_Side][05]
 
 ## Using this repository to follow the demo
 
@@ -53,8 +52,7 @@ By default, the git clone command will only create the master branch locally. If
     git checkout -b 02_Create_Angular_App_And_Basic_Nav origin/02_Create_Angular_App_And_Basic_Nav
     git checkout -b 03_Create_Angular_Controllers origin/03_Create_Angular_Controllers
     git checkout -b 04_Communicate_Between_Controllers_Using_Service origin/04_Communicate_Between_Controllers_Using_Service
-    git checkout -b 05_Create_A_Provider origin/05_Create_A_Provider
-    git checkout -b 06_Create_Web_Server_APIs origin/06_Create_Web_Server_APIs
+    git checkout -b 05_Hook_Up_Server_Side origin/05_Hook_Up_Server_Side
 
 You can review the list of local branches by running:
 
@@ -70,5 +68,4 @@ And you can switch between branches with the checkout command. For example, to c
 [02]: https://github.com/buffalobillion/angular-node/tree/02_Create_Angular_App_And_Basic_Nav
 [03]: https://github.com/buffalobillion/angular-node/tree/03_Create_Angular_Controllers
 [04]: https://github.com/buffalobillion/angular-node/tree/04_Communicate_Between_Controllers_Using_Service
-[05]: https://github.com/buffalobillion/angular-node/tree/05_Create_A_Provider
-[06]: https://github.com/buffalobillion/angular-node/tree/06_Create_Web_Server_APIs
+[05]: https://github.com/buffalobillion/angular-node/tree/05_Hook_Up_Server_Side
