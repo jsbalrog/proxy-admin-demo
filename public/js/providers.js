@@ -100,12 +100,26 @@ var Provider = (function() {
         }
     ];
 
-    my.getApps = function() {
-        return apps;
+    my.getApps = function (scope, http) {
+        http({method:'GET', url:'/api/apps'}).
+            success(function (data, status, headers, config) {
+                scope.data.apps = data.apps;
+            }).
+            error(function (data, status, headers, config) {
+                scope.name = 'Error!';
+            });
     };
 
-    my.getUsers = function(app) {
-        return _.where(users, {"APP_ID": app.APP_ID});
+    my.getUsers = function (scope, http, selectedApp) {
+        // Get the users by selected application's id:
+        var url = '/api/apps/' + selectedApp.APP_ID + '/users/';
+        http({method:'GET', url:url}).
+            success(function (data, status, headers, config) {
+                scope.data.users = data.users;
+            }).
+            error(function (data, status, headers, config) {
+                scope.name = 'Error!';
+            });
     };
 
     return my;

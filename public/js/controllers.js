@@ -1,15 +1,15 @@
-AppListCtrl = function($scope, UserService) {
+AppListCtrl = function($scope, $http, UserService) {
     $scope.data = {};
-    $scope.data.apps = UserService.getApps();
+    UserService.getApps($scope, $http);
 
     $scope.change = function(selectedApp) {
         UserService.setSelectedApp(selectedApp);
     };
 };
 
-UserListCtrl = function($scope, UserService) {
+UserListCtrl = function($scope, $http, UserService) {
     $scope.$on('appSelected', function(evt, selectedApp) {
         $scope.data = {};
-        $scope.data.users = UserService.getUsers(selectedApp);
+        UserService.getUsers($scope, $http, selectedApp);
     });
 };

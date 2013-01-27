@@ -1,12 +1,12 @@
 userAdmin.factory('UserService', function($rootScope) {
     var userService = {};
 
-    userService.getApps = function() {
-        return Provider.getApps();
+    userService.getApps = function(scope, http) {
+        Provider.getApps(scope, http);
     };
 
-    userService.getUsers = function(app) {
-        return Provider.getUsers(app);
+    userService.getUsers = function(scope, http, app) {
+        return Provider.getUsers(scope, http, app);
     };
 
     userService.setSelectedApp = function(app) {

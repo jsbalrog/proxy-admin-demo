@@ -3,7 +3,7 @@
  */
 
 var express = require('express'),
-    // api require will go here
+    api = require('./routes/api'),
     page = require('./lib/middleware/paging');
 
 var app = module.exports = express.createServer();
@@ -25,7 +25,8 @@ app.configure('production', function(){
 });
 
 // JSON API
-// Will go here
+app.get('/api/apps', api.apps);
+app.get('/api/apps/:appId/users', api.users);
 
 // Start server
 var port = process.env.PORT || 3000;
