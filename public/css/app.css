@@ -1,0 +1,18 @@
+/* app css stylesheet */
+
+body {
+	padding-top: 60px;
+}
+
+select {
+    width: 270px;
+}
+
+.cleared-p {
+    clear:both;
+}
+
+.drop-down-list {
+    float:left;
+    width:300px;
+}

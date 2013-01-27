@@ -28,7 +28,7 @@ This Git repository includes all of the source code used in creating the employe
 
 Each of the links below represents a snapshot of the code at a point in the presentation. You'll find instructions below on how to check out each snapshot from this git repository.
 
-* [00_Blank_Slate][00]
+git s* [00_Blank_Slate][00]
 * [01_Create_Node_App_And_Static_File_Server][01]
 * [02_Create_Angular_App_And_Basic_Nav][02]
 * [03_Create_Angular_Controllers][03]
@@ -53,6 +53,10 @@ By default, the git clone command will only create the master branch locally. If
     git checkout -b 03_Create_Angular_Controllers origin/03_Create_Angular_Controllers
     git checkout -b 04_Communicate_Between_Controllers_Using_Service origin/04_Communicate_Between_Controllers_Using_Service
     git checkout -b 05_Hook_Up_Server_Side origin/05_Hook_Up_Server_Side
+
+And make sure you run npm install to install any necessary node modules by running
+
+    npm install
 
 You can review the list of local branches by running:
 

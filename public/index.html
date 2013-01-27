@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" ng-app='userAdmin'>
+<head>
+    <meta charset="utf-8">
+    <title>User Admin</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">User Admin</a>
+            <ul class="nav">
+                <li><a href="#/manage">Management</a></li>
+                <li><a href="#/security">Security</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container" ng-view></div>
+
+<script src="js/lib/angular/angular.js"></script>
+<script src="js/lib/underscore/underscore-1.4.2-min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/services.js"></script>
+<script src="js/providers.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<h1>Management</h1>
+<div class="css-form">
+
+    <div class="drop-down-section" name="drop-downs">
+        <div class="drop-down-list" name="app-list">
+            <h5>Applications</h5>
+            <select name="app-select"
+                    ng-controller="AppListCtrl"
+                    ng-model="data.selectedApp"
+                    ng-options="i.APP_NM for i in data.apps"
+                    ng-change="change(data.selectedApp)">
+                <option value="">-- select --</option>
+            </select>
+        </div>
+    </div>
+
+</div>
+<div name="user-list" ng-controller="UserListCtrl">
+    <table class="table table-striped table-bordered" name="app-users" ng-model="data.users">
+        <thead><td><strong>User's Preferred Name</strong></td><td><strong>Username</strong></td></thead>
+        <tbody>
+        <tr ng-repeat="user in data.users">
+            <td>{{ user.PREF_NM }}</td><td>{{ user.USER_NM }}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
