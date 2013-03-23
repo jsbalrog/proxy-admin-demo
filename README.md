@@ -7,7 +7,10 @@ This is meant to be a demo of a user management app.
     package.json        --> for npm
     routes/
       api.js            --> routes for serving JSON
-
+    lib/
+      middleware/       --> folder for our own middleware
+    providers/          --> folder containing the files that connect to data back-end
+      provider-memory.js--> creates an in-memory data store
     public/             --> all of the files to be used in on the client side
       index.html        --> main html page
       css/              --> css files
@@ -18,17 +21,17 @@ This is meant to be a demo of a user management app.
         providers.js    --> provides urls and http ajax callbacks to the server
         services.js     --> custom angular services
         lib/            --> angular and 3rd party JavaScript libraries
-          angular/
+          angular/      
           underscore/
       partials/         --> angular view partials (partial html)
-        impersonation-main.html   --> main view for all things user-admin
-        security-main.html        --> TBD
+        manage.html   --> main view for all things user-admin
+        security.html --> TBD
 
 This Git repository includes all of the source code used in creating the employee admin demo app.
 
 Each of the links below represents a snapshot of the code at a point in the presentation. You'll find instructions below on how to check out each snapshot from this git repository.
 
-git s* [00_Blank_Slate][00]
+* [00_Blank_Slate][00]
 * [01_Create_Node_App_And_Static_File_Server][01]
 * [02_Create_Angular_App_And_Basic_Nav][02]
 * [03_Create_Angular_Controllers][03]
@@ -39,11 +42,11 @@ git s* [00_Blank_Slate][00]
 
 First, you'll have to clone this repository:
 
-    git clone git://github.com/buffalobillion/angular-node.git
+    git clone git://github.com/buffalobillion/proxy-admin.git
 
 Change into the directory:
 
-    cd angular-node
+    cd proxy-admin
 
 By default, the git clone command will only create the master branch locally. If you want to study the code at each checkpoint, you will have to fetch each of the other branches. You can do so by running the following:
 
@@ -67,9 +70,9 @@ And you can switch between branches with the checkout command. For example, to c
     git co 06_Create_Web_Server_APIs
 
 
-[00]: https://github.com/buffalobillion/angular-node/tree/00_Blank_Slate
-[01]: https://github.com/buffalobillion/angular-node/tree/01_Create_Node_App_And_Static_File_Server
-[02]: https://github.com/buffalobillion/angular-node/tree/02_Create_Angular_App_And_Basic_Nav
-[03]: https://github.com/buffalobillion/angular-node/tree/03_Create_Angular_Controllers
-[04]: https://github.com/buffalobillion/angular-node/tree/04_Communicate_Between_Controllers_Using_Service
-[05]: https://github.com/buffalobillion/angular-node/tree/05_Hook_Up_Server_Side
+[00]: https://github.com/buffalobillion/proxy-admin/tree/00_Blank_Slate
+[01]: https://github.com/buffalobillion/proxy-admin/tree/01_Create_Node_App_And_Static_File_Server
+[02]: https://github.com/buffalobillion/proxy-admin/tree/02_Create_Angular_App_And_Basic_Nav
+[03]: https://github.com/buffalobillion/proxy-admin/tree/03_Create_Angular_Controllers
+[04]: https://github.com/buffalobillion/proxy-admin/tree/04_Communicate_Between_Controllers_Using_Service
+[05]: https://github.com/buffalobillion/proxy-admin/tree/05_Hook_Up_Server_Side
