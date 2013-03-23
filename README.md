@@ -34,7 +34,7 @@ Each of the links below represents a snapshot of the code at a point in the pres
 
 First, you'll have to clone this repository:
 
-    git clone git://github.com/buffalobillion/angular-node.git
+    git clone git://github.com/buffalobillion/proxy-admin.git
 
 Change into the directory:
 
@@ -53,4 +53,4 @@ And you can switch between branches with the checkout command. For example, to c
     git co 06_Create_Web_Server_APIs
 
 
-[00]: https://github.com/buffalobillion/angular-node/tree/00_Blank_Slate
+[00]: https://github.com/buffalobillion/proxy-admin/tree/00_Blank_Slate
